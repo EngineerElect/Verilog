@@ -1,0 +1,24 @@
+	For Solution of this you can contact on electengg691@gmail.com
+		For Solution of this you can contact on electengg691@gmail.com
+		For Solution of this you can contact on electengg691@gmail.com
+
+
+ELEC3042 Major Project
+ 
+You are to design and implement the state machine control system for a Fire Alarm system.
+Your fire alarm has three sectors, a main control panel, and a secondary mimic panel.
+Each sector consists of a sensor (in our project the sensor is replaced by a push button), an indicator LED on the main system, and an indicator LED on the mimic panel.
+On the main panel there are three control buttons: isolate, silence/reset and emergency. These three buttons are connected through a voltage divider to an analog input on the controller. There is a speaker connected through a resistor to one of the timer outputs on the controller. The speaker is used to provide alert and evacuate tones to the building occupants.
+The mimic panel is separate to the main controller, and has three LEDs which light if the corresponding sector has been triggered. There is also an isolate, silence/reset and emergency button on the mimic panel. The functionality of these buttons is identical to those on the main controller.
+There is an 16x2 LCD display on the main controller. This display gives status information about the system.
+ELEC3042 – 2020 Session 1	1	Initial Outline Draft
+Operation of the Controller:
+The controller initialise itself into a quiescent state. No sectors are identified as triggered, no tones are sounding. It initialises the display and monitors the sensors and the control buttons.
+When one sector is triggered the corresponding sector LED must start to flash an alert flash. No audio tones will be issued at this time.
+If the sector remains triggered for three seconds the alert tone must be issued, and the sector LED will continue to flash.
+If the sector remains triggered for six seconds the alert tone must change to the evacuate tone and the sector LED will change to a solid lit state.
+If two or more sectors are triggered the controller must immediately change to the evacuate tone, and all triggered sectors will change to a solid lit state.
+If the emergency button is pressed on either the main controller or the mimic panel the system must immediately change to the evacuate tone. No changes are made to the sector LEDs at this time.
+If the isolate button is pressed on the controller or mimic panel any sectors that are currently triggered will go into an isolated state. Their corresponding state LEDs will commence a slow isolated flash.
+If the silence/reset button is pressed any tones that are currently sounding will be silenced. New sectors or the emergency button can trigger tones and these will be played. If the silence/reset button is pressed a second time but not before a two second gap between presses then the system is reset. All non-isolated, triggered sectors are reset to a quiescent state and will monitor for triggers. Isolated sectors remain isolated. If, after an additional two second delay the silence/reset button is pressed a third time any isolated sectors are unisolated and reset to the quiescent state.
+ELEC3042 – 2020 Session 1	2	Initial Outline Draft
