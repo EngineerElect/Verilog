@@ -12,6 +12,11 @@ On the main panel there are three control buttons: isolate, silence/reset and em
 The mimic panel is separate to the main controller, and has three LEDs which light if the corresponding sector has been triggered. There is also an isolate, silence/reset and emergency button on the mimic panel. The functionality of these buttons is identical to those on the main controller.
 There is an 16x2 LCD display on the main controller. This display gives status information about the system.
 ELEC3042 – 2020 Session 1	1	Initial Outline Draft
+
+For Solution of this you can contact on electengg691@gmail.com
+		For Solution of this you can contact on electengg691@gmail.com
+		For Solution of this you can contact on electengg691@gmail.com
+
 Operation of the Controller:
 The controller initialise itself into a quiescent state. No sectors are identified as triggered, no tones are sounding. It initialises the display and monitors the sensors and the control buttons.
 When one sector is triggered the corresponding sector LED must start to flash an alert flash. No audio tones will be issued at this time.
@@ -22,3 +27,6 @@ If the emergency button is pressed on either the main controller or the mimic pa
 If the isolate button is pressed on the controller or mimic panel any sectors that are currently triggered will go into an isolated state. Their corresponding state LEDs will commence a slow isolated flash.
 If the silence/reset button is pressed any tones that are currently sounding will be silenced. New sectors or the emergency button can trigger tones and these will be played. If the silence/reset button is pressed a second time but not before a two second gap between presses then the system is reset. All non-isolated, triggered sectors are reset to a quiescent state and will monitor for triggers. Isolated sectors remain isolated. If, after an additional two second delay the silence/reset button is pressed a third time any isolated sectors are unisolated and reset to the quiescent state.
 ELEC3042 – 2020 Session 1	2	Initial Outline Draft
+For Solution of this you can contact on electengg691@gmail.com
+		For Solution of this you can contact on electengg691@gmail.com
+		For Solution of this you can contact on electengg691@gmail.com
