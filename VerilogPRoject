@@ -1,0 +1,25 @@
+
+For Solution of this you can contact on electengg691@gmail.com
+	For Solution of this you can contact on electengg691@gmail.com
+	For Solution of this you can contact on electengg691@gmail.com
+Software packages used 
+1. PC loaded with vivado.
+2. EdaPlayground Task 
+1: Design a Finite State Machine for the Remote Control Key for Garage Door Lock (50 Marks) 
+Draw a Mealy/Moore FSM state diagram for the given problem. Clearly show your design steps using state diagrams, 
+state tables and state assign tables. Task 2: Verilog Code (25 Marks) Create a Verilog code for the FSM obtained in Task 1. 
+Task 3: Test Bench and Simulation (25 Marks) Write a testbench for the Verilog design and simulate it using vivado or EdaPlayground. 
+You must test the design for all important cases: 1. entry of correct key 2. entry of wrong key less than three times 3. 
+entry of wrong key three times. Provide timing diagrams to prove that your design meets all the design criteria. 
+Problem description: In this project, you are required to design a code detector for a garage door lock. 
+The lock opens when the user enters an individual 5-digit code or key in his remote control. 
+Your task is to design the code detector as a finite state machine that checks a specific 5-digit code.
+The 5-digit key is equal to the five right-most digits of your student ID. So, if your ID is 100012345 
+then the code detector must detect the pattern 12345. The design criteria are: 1. 
+The key to the garage door is the last five digits of student ID. 2. The key digits should be represented as hexadecimal numbers.
+3. If the user enters a wrong key three times successively, the lock must be blocked until it is reset. 
+This reset takes the code detector to its start state.
+
+For Solution of this you can contact on electengg691@gmail.com
+	For Solution of this you can contact on electengg691@gmail.com
+	For Solution of this you can contact on electengg691@gmail.com
